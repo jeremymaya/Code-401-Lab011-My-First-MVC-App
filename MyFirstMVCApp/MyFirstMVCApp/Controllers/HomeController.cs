@@ -9,14 +9,15 @@ namespace MyFirstMVCApp.Controllers
         [HttpGet]
         public ViewResult Index()
         {
+            var random = TimePerson.GetPersons(1950, 1960);
             return View();
         }
 
         [HttpPost]
         public IActionResult Index(int yearFrom, int yearTo)
         {
-            TimePerson list = new TimePerson(yearFrom, yearTo);
-            return RedirectToAction("Results", list);
+            var random = TimePerson.GetPersons(yearFrom, yearTo);
+            return RedirectToAction("Results", random);
         }
 
         public ViewResult Results(TimePerson list)
