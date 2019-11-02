@@ -1,0 +1,32 @@
+﻿body > header > h1 {
+    line-height: 100px;
+    font-size: 25px;
+}
+
+body > header > img {
+    width: 300px;
+    height: auto;
+}
+
+body > main > form, input, button {
+    margin-top: 5px;
+}
+
+body > main > form > button {
+    background-color: #555555;
+    border: none;
+    color: #ffffff;
+    padding: 5px;
+}
+
+body > main > table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+body > main > table, th, td {
+    border: 1px solid black;
+   
+}

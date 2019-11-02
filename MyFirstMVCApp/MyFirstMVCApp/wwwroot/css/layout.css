@@ -1,0 +1,24 @@
+﻿body {
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header, main, footer {
+    background: #999999;
+    text-align: center;
+}
+
+body > header {
+    height: 600px;
+}
+
+
+body > main {
+    height: 100%;
+}
+
+body > footer {
+    height: 50px;
+    line-height: 50px;
+}
