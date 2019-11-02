@@ -1,0 +1,12 @@
+﻿
+@model List<MyFirstMVCApp.Models.TimePerson>
+
+<head>
+</head>
+    <body>
+        <h1>Hello</h1>
+        @foreach (var item in Model)
+        {
+            <h2>@item.Name @item.Context</h2>
+        }
+    </body>

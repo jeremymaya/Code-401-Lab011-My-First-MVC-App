@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using MyFirstMVCApp.Models;
 
@@ -7,22 +8,23 @@ namespace MyFirstMVCApp.Controllers
     public class HomeController : Controller
     {
         [HttpGet]
-        public ViewResult Index()
+        public IActionResult Index()
         {
-            var random = TimePerson.GetPersons(1950, 1960);
             return View();
         }
 
         [HttpPost]
         public IActionResult Index(int yearFrom, int yearTo)
         {
-            var random = TimePerson.GetPersons(yearFrom, yearTo);
-            return RedirectToAction("Results", random);
+
+            return RedirectToAction("Results", new { yearFrom, yearTo });
         }
 
-        public ViewResult Results(TimePerson list)
+        public IActionResult Results(int yearFrom, int yearTo)
         {
+            List<TimePerson> list = TimePerson.GetPersons(yearFrom, yearTo);
             return View(list);
         }
     }
 }
+
