@@ -45,5 +45,5 @@ Then select and open ```MyFirstMVCApp.sln```
 ---
 
 ### Change Log
-1.1: *Lab 11 Second submition* - 2 Nov 2019
+1.1: *Lab 11 Second submition* - 2 Nov 2019  
 1.0: *Lab 11 Initial submition* - 29 Oct 2019
