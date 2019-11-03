@@ -32,8 +32,10 @@ Then select and open ```MyFirstMVCApp.sln```
 ---
 
 ### Visuals
-#### PrintNeighborhoods
-![Image 1](https://github.com/jeremymaya/Code-401-Lab07-Collections/blob/master/Screenshots/Menu.JPG)
+#### Main
+![Image 1](https://github.com/jeremymaya/Code-401-Lab11-My-First-MVC-App/blob/master/Screenshots/Main.JPG)
+#### Search Result
+![Image 2](https://github.com/jeremymaya/Code-401-Lab11-My-First-MVC-App/blob/master/Screenshots/SearchResult.JPG)
 
 ---
 
@@ -43,4 +45,5 @@ Then select and open ```MyFirstMVCApp.sln```
 ---
 
 ### Change Log
-1.0: *Lab 1 Started* - 29 Oct 2019 9:30 AM
+1.1: *Lab 11 Second submition* - 2 Nov 2019
+1.0: *Lab 11 Initial submition* - 29 Oct 2019

@@ -1,0 +1,28 @@
+﻿body {
+    margin: auto;
+}
+
+header, main, footer {
+    background: #999999;
+    text-align: center;
+}
+
+body > header {
+    height: 600px;
+}
+
+
+body > main {
+    height: 100%;
+}
+
+    body > main > table {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+body > footer {
+    height: 50px;
+    line-height: 50px;
+}

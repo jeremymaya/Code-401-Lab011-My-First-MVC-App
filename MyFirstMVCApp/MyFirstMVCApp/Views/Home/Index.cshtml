@@ -1,25 +1,36 @@
-﻿@{ 
-
-}
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to .NET Core</title>
-    <link rel="stylesheet" href="~/styles.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="~/css/base.css">
+    <link rel="stylesheet" type="text/css" href="~/css/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/css/module.css">
 </head>
-<body>
-    <h1>Time's Person of the Year</h1>
-    <p>Please enter the search years</p>
-    <form method="post">
-        <label name="yearFrom">From</label>
-        <input type="number" name="yearFrom" />
+    <body>
+        <header>
+            <h1>
+                Time's Person of the Year
+            </h1>
+            <img src="https://via.placeholder.com/300x450" alt="Hero"/>
+        </header>
+        <main>
+            <p>
+                Please enter the search years
+            </p>
+            <form method="post">
+                <input type="number" name="yearFrom" placeholder="From"/>
 
-        <label name="YearTo">To</label>
-        <input type="number" name="yearTo" />
-        
-        <button type="submit">Search</button>
-    </form>
+                <input type="number" name="yearTo" placeholder="To"/>
 
-</body>
-
+                <button type="submit">Search</button>
+            </form>
+        </main>        
+        <footer>
+            <p>
+                &copy; Code Fellows seattle-dotnet-401d9 Kyungrae Kim
+            </p>
+        </footer>
+    </body>
 </html>

@@ -19,7 +19,7 @@ namespace MyFirstMVCApp.Models
 
         public static List<TimePerson> GetPersons(int yearFrom, int yearTo)
         {
-            string path = "../wwwroot/personOfTheYear.csv";
+            string path = "./wwwroot/personOfTheYear.csv";
             string[] myFile = File.ReadAllLines(path);
 
             List<TimePerson> people = new List<TimePerson>();
@@ -42,7 +42,7 @@ namespace MyFirstMVCApp.Models
                 };
                 people.Add(person);
             }
-            people.Where(x => (x.Year >= yearFrom) && (x.Year <= yearTo)).ToList();
+            people = people.Where(x => (x.Year >= yearFrom) && (x.Year <= yearTo)).ToList();
             return people;
         }
     }

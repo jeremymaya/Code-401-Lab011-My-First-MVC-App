@@ -1,0 +1,56 @@
+﻿
+@model List<MyFirstMVCApp.Models.TimePerson>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to .NET Core</title>
+    <link rel="stylesheet" type="text/css" href="~/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="~/css/base.css">
+    <link rel="stylesheet" type="text/css" href="~/css/layout.css">
+    <link rel="stylesheet" type="text/css" href="~/css/module.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Time's Person of the Year
+        </h1>
+        <img src="https://via.placeholder.com/300x450" alt="Hero" />
+    </header>
+    <main>
+        <a asp-controller="Home" asp-action="">Back to search</a>
+        <table>
+            <tr>
+                <th>Year</th>
+                <th>Honor</th>
+                <th>Name</th>
+                <th>Country</th>
+                <th>Birth Year</th>
+                <th>Death Year</th>
+                <th>Title</th>
+                <th>Category</th>
+                <th>Context</th>
+            </tr>
+            @foreach (var person in Model)
+            {
+                <tr>
+                    <td>@person.Year</td>
+                    <td>@person.Honor</td>
+                    <td>@person.Name</td>
+                    <td>@person.Country</td>
+                    <td>@person.BirthYear</td>
+                    <td>@person.DeathYear</td>
+                    <td>@person.Title</td>
+                    <td>@person.Category</td>
+                    <td>@person.Context</td>
+                </tr>
+            }
+        </table>
+    </main>
+    <footer>
+        <p>
+            &copy; Code Fellows seattle-dotnet-401d9 Kyungrae Kim
+        </p>
+    </footer>
+</body>
+</html>
