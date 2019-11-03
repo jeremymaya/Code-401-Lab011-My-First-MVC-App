@@ -33,9 +33,9 @@ Then select and open ```MyFirstMVCApp.sln```
 
 ### Visuals
 #### Main
-![Image 1](https://github.com/jeremymaya/Code-401-Lab11-My-First-MVC-App/blob/master/Screenshots/Main.JPG)
+![Image 1](https://github.com/jeremymaya/Code-401-Lab11-My-First-MVC-App/blob/master/Screenshots/Main-Editted.JPG)
 #### Search Result
-![Image 2](https://github.com/jeremymaya/Code-401-Lab11-My-First-MVC-App/blob/master/Screenshots/SearchResult.JPG)
+![Image 2](https://github.com/jeremymaya/Code-401-Lab11-My-First-MVC-App/blob/master/Screenshots/SearchResult-Editted.JPG)
 
 ---
 
