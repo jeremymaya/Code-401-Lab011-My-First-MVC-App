@@ -21,7 +21,7 @@ $ git clone https://github.com/jeremymaya/Code-401-Lab11-My-First-MVC-App.git
 ```
 
 ### To run the program from Visual Studio:
-Select ```File``` -> ```Open``` -> ```Code-401-Lab11-MyFirstMVCApp``
+Select ```File``` -> ```Open``` -> ```Code-401-Lab11-MyFirstMVCApp```
 
 Next navigate to the location you cloned the Repository.
 
