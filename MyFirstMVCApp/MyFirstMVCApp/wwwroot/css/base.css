@@ -1,5 +1,6 @@
 ﻿* {
     box-sizing: border-box;
-    /*outline: solid 1px #777777;*/
     width: 100%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }

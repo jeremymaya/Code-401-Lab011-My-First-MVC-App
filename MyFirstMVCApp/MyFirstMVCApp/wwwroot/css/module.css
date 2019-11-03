@@ -10,23 +10,46 @@ body > header > img {
 
 body > main > form, input, button {
     margin-top: 5px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-body > main > form > button {
+    body > main > form > button {
+        background-color: #555555;
+        border: none;
+        color: #ffffff;
+        padding: 5px;
+    }
+
+body > main > a {
     background-color: #555555;
-    border: none;
     color: #ffffff;
+    text-decoration: none;
     padding: 5px;
+    display: inline-block;
+    margin-bottom: 25px;
 }
 
-body > main > table {
-    border-collapse: collapse;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
+    body > main > a:hover {
+        background-color: #555555;
+        text-decoration: none;
+        padding: 5px;
+    }
+
+    body > main > a:active {
+        background-color: #555555;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 5px;
+    }
+
+    body > main > a:visited {
+        background-color: #555555;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 5px;
+    }
 
 body > main > table, th, td {
     border: 1px solid black;
-   
 }

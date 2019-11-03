@@ -8,17 +8,10 @@ namespace MyFirstMVCApp.Controllers
     public class HomeController : Controller
     {
         [HttpGet]
-        public IActionResult Index()
-        {
-            return View();
-        }
+        public IActionResult Index() => View();
 
         [HttpPost]
-        public IActionResult Index(int yearFrom, int yearTo)
-        {
-
-            return RedirectToAction("Results", new { yearFrom, yearTo });
-        }
+        public IActionResult Index(int yearFrom, int yearTo) => RedirectToAction("Results", new { yearFrom, yearTo });
 
         public IActionResult Results(int yearFrom, int yearTo)
         {
